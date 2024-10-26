@@ -1,0 +1,64 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#obox{
+    border: solid 1px;
+    height: 450px;
+    background-image: url(food3.jpg);
+    background-repeat: no-repeat;
+    background-size: 1200px 500px;
+}
+#navbox{
+    border: solid 1px ;
+    height: 40px;
+}
+ul li{
+    border: solid 1px white;
+    height: 30px;
+    width: 140px;
+    float: left;
+    background-color: green;
+    border-radius: 15px;
+    text-align: center;
+    line-height: 30px;
+}
+ul{
+    list-style: none;
+}
+ul li a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+ul li:hover{
+    background-color: orange;
+}
+#out{
+    border: solid 1px white;
+    height: 410px
+}
+#scrolltext{
+    color: white;
+    font-size: 40px;
+    text-shadow: 3px 3px 5px white;
+}
+#Welcome{
+    color: red;
+    font-size: 60px;
+    text-align: center;
+    text-shadow: 3px 3px 5px white;
+}
+.menubox{
+    border: solid 1px;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+#menu{
+    border: solid 1px;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+}
